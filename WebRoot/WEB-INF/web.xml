@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.0"
+    xmlns="http://java.sun.com/xml/ns/javaee"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd">
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>UserDaoServlet</servlet-name>
+    <servlet-class>servlet.UserDaoServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AddUser</servlet-name>
+    <servlet-class>servlet.AddUser</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DeleteUser</servlet-name>
+    <servlet-class>servlet.DeleteUser</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>QueryUser</servlet-name>
+    <servlet-class>servlet.QueryUser</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>UpdateUser</servlet-name>
+    <servlet-class>servlet.UpdateUser</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>login</servlet-name>
+    <servlet-class>servlet.login</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>register</servlet-name>
+    <servlet-class>servlet.register</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AdminFindAll</servlet-name>
+    <servlet-class>servlet.AdminFindAll</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>QueryFrequency</servlet-name>
+    <servlet-class>servlet.QueryFrequency</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>logout</servlet-name>
+    <servlet-class>servlet.logout</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AdminUpdateUser</servlet-name>
+    <servlet-class>servlet.AdminUpdateUser</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AdminAddUser</servlet-name>
+    <servlet-class>servlet.AdminAddUser</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AdminQueryFrequencyAll</servlet-name>
+    <servlet-class>servlet.AdminQueryFrequencyAll</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AdminAddFrequency</servlet-name>
+    <servlet-class>servlet.AdminAddFrequency</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AdminUpdateFrequency</servlet-name>
+    <servlet-class>servlet.AdminUpdateFrequency</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AdminDeleteFrequency</servlet-name>
+    <servlet-class>servlet.AdminDeleteFrequency</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AdminQueryFrequency</servlet-name>
+    <servlet-class>servlet.AdminQueryFrequency</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>FindAllFrequency</servlet-name>
+    <servlet-class>servlet.FindAllFrequency</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>UserOrder</servlet-name>
+    <servlet-class>servlet.UserOrder</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>UserDisOrder</servlet-name>
+    <servlet-class>servlet.UserDisOrder</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>QueryOrder</servlet-name>
+    <servlet-class>servlet.QueryOrder</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>UserQueryFrequency</servlet-name>
+    <servlet-class>servlet.UserQueryFrequency</servlet-class>
+  </servlet>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>UserDaoServlet</servlet-name>
+    <url-pattern>/servlet/UserDaoServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AddUser</servlet-name>
+    <url-pattern>/servlet/AddUser</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DeleteUser</servlet-name>
+    <url-pattern>/servlet/DeleteUser</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>QueryUser</servlet-name>
+    <url-pattern>/servlet/QueryUser</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UpdateUser</servlet-name>
+    <url-pattern>/servlet/UpdateUser</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>login</servlet-name>
+    <url-pattern>/servlet/login</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>register</servlet-name>
+    <url-pattern>/servlet/register</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AdminFindAll</servlet-name>
+    <url-pattern>/servlet/AdminFindAll</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>QueryFrequency</servlet-name>
+    <url-pattern>/servlet/QueryFrequency</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>logout</servlet-name>
+    <url-pattern>/servlet/logout</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AdminUpdateUser</servlet-name>
+    <url-pattern>/servlet/AdminUpdateUser</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AdminAddUser</servlet-name>
+    <url-pattern>/servlet/AdminAddUser</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AdminQueryFrequencyAll</servlet-name>
+    <url-pattern>/servlet/AdminQueryFrequencyAll</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AdminAddFrequency</servlet-name>
+    <url-pattern>/servlet/AdminAddFrequency</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AdminUpdateFrequency</servlet-name>
+    <url-pattern>/servlet/AdminUpdateFrequency</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AdminDeleteFrequency</servlet-name>
+    <url-pattern>/servlet/AdminDeleteFrequency</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AdminQueryFrequency</servlet-name>
+    <url-pattern>/servlet/AdminQueryFrequency</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>FindAllFrequency</servlet-name>
+    <url-pattern>/servlet/FindAllFrequency</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UserOrder</servlet-name>
+    <url-pattern>/servlet/UserOrder</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UserDisOrder</servlet-name>
+    <url-pattern>/servlet/UserDisOrder</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>QueryOrder</servlet-name>
+    <url-pattern>/servlet/QueryOrder</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UserQueryFrequency</servlet-name>
+    <url-pattern>/servlet/UserQueryFrequency</url-pattern>
+  </servlet-mapping>
+
+</web-app>
